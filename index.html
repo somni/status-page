@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Somni is back shortly</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root {
+    --ink: #2b2d5c;
+    --accent: #6c5ce7;
+    --bg: #f8f9fa;
+    --card-bg: #ffffff;
+    --border: #e5e5ea;
+    --muted: #6c757d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2f2f7;
+      --accent: #9b8cf0;
+      --bg: #17182b;
+      --card-bg: #1f2140;
+      --border: #33355c;
+      --muted: #a3a5c2;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 48px 40px;
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: var(--accent);
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  .eta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .contact {
+    margin-top: 28px;
+    font-size: 13px;
+  }
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="mark">S</div>
+    <h1>We'll be back shortly</h1>
+    <p>Somni is temporarily offline while we resolve an issue with our hosting provider.</p>
+    <p>No action is needed on your part. Your data is safe, and the app will be back automatically once service is restored.</p>
+    <span class="eta">Checking back soon</span>
+    <p class="contact">Questions? Reach us at <a href="mailto:support@puresomni.com">support@puresomni.com</a></p>
+  </div>
+</body>
+</html>
